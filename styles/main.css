@@ -1,7 +1,8 @@
 body {
-	background: url("images/rolex.jpg") no-repeat;
+	background: url("images/coffee.jpg") no-repeat;
 	margin: 0 auto;
 	background-size: cover;
+	height: 100vh;
 
 }
 
@@ -13,4 +14,9 @@ body {
 	letter-spacing: -.05em;
 	line-height: 1.2em;
 	font-family: 'Revalia', cursive;
+}
+
+.ima {
+	height: 100px;
+	width: auto;
 }
