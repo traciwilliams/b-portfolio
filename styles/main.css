@@ -1,0 +1,26 @@
+section {
+	width: 100vw;
+	height: 100vh;
+	padding: 50px;
+}
+
+
+p {
+	color: white;
+}
+
+
+#home {
+	 background: url(images/rolex.jpg);
+	// background-size: 100%;
+	
+}
+
+img {
+	width: 350px;
+	transition: opacity 1s ease-in-out;
+}
+
+img:hover {
+	opacity: .5;
+}

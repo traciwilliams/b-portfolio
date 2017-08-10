@@ -10,16 +10,35 @@
 			<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		</head>
-		<body>
+		<body data-spy="scroll" data-target=".navbar">
 			<nav class="navbar navbar-inverse navbar-fixed-bottom">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">What I do</a></li>
-					<li><a href="#">What about me</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#work">What I do</a></li>
+					<li><a href="#what">What about me</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
-
 			</nav>
+
+			<section id="home" class="text-center">
+				<h1>My Portfolio</h1>
+				<p class="lead">Let's Just read myself and Contact me</p>
+				<button class="btn btn-default">Contact Me!</button>
+			</section>
+
+			<section id="work" class="container">
+				<div class="page-header">
+					<h1 class="text-center">My Work</h1>
+				</div>
+				<img src="styles/images/coffee.jpg" class="img-thumbnail">
+				<img src="styles/images/coffee.jpg" class="img-thumbnail">
+				<img src="styles/images/coffee.jpg" class="img-thumbnail">
+				<img src="styles/images/coffee.jpg" class="img-thumbnail">
+				<img src="styles/images/coffee.jpg" class="img-thumbnail">
+				<img src="styles/images/coffee.jpg" class="img-thumbnail">
+				
+			</section>
+
 		
 
 
