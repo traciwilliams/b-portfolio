@@ -1,26 +1,82 @@
+body {
+	font-family: 'Lato', sans-serif;
+	//background-color: rgba(255,0,0,.1);
+}
+
 section {
 	width: 100vw;
 	height: 100vh;
 	padding: 50px;
 }
 
+.quote {
+	width: 100vw;
+	height: 10vh;
+	margin-top: 10px;
+	padding: 20px;
+	z-index: 9999;
+}
+
+.hero-text {
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+.hero-box {
+	position: absolute;
+	top: 55%;
+	left: 68%;
+	padding: 10px 10px;
+	border-radius: 30%;
+	background-color: rgba(255,0,0,.3);
+}
+
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+h2#club-text {
+	color: white;
+}
 
 p {
 	color: white;
+	font-weight: 300;
 }
 
 
 #home {
-	 background: url(images/rolex.jpg);
+	 background: url(images/8.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
 	// background-size: 100%;
 	
 }
 
 img {
-	width: 350px;
+	width: 375px;
 	transition: opacity 1s ease-in-out;
 }
 
 img:hover {
 	opacity: .5;
+}
+
+.col-text {
+	column-count: 4;
+	-webkit-column-count: 4;
+}
+
+
+#club {
+	background-image: linear-gradient(rgba(255,0,0,.3), rgba(0,0,0,.3)), url(images/food.jpg);
+	background-size: cover;
+}
+
+#contact {
+	background-color: lightgrey;
 }

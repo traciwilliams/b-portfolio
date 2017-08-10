@@ -7,6 +7,9 @@
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 			<link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
 			<link rel="stylesheet" href="styles/main.css">
+
+			<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+			
 			<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		</head>
@@ -14,36 +17,74 @@
 			<nav class="navbar navbar-inverse navbar-fixed-bottom">
 				<ul class="nav navbar-nav">
 					<li><a href="#home">Home</a></li>
-					<li><a href="#work">What I do</a></li>
-					<li><a href="#what">What about me</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#recipes">Recipes</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#club">Join the Club</a></li>
 				</ul>
 			</nav>
 
 			<section id="home" class="text-center">
-				<h1>My Portfolio</h1>
-				<p class="lead">Let's Just read myself and Contact me</p>
-				<button class="btn btn-default">Contact Me!</button>
-			</section>
+				<div class="hero-box">
+					<h1 class="hero-text">My Food Recipes</h1>
+					<p class="lead">Read on for interesting recipes</p>
+					<button class="btn btn-default"><a href="#recipes">Recipes</a></button>
+					<button class="btn btn-default"><a href="#club">Join the Club</a></button>
 
-			<section id="work" class="container">
-				<div class="page-header">
-					<h1 class="text-center">My Work</h1>
 				</div>
-				<img src="styles/images/coffee.jpg" class="img-thumbnail">
-				<img src="styles/images/coffee.jpg" class="img-thumbnail">
-				<img src="styles/images/coffee.jpg" class="img-thumbnail">
-				<img src="styles/images/coffee.jpg" class="img-thumbnail">
-				<img src="styles/images/coffee.jpg" class="img-thumbnail">
-				<img src="styles/images/coffee.jpg" class="img-thumbnail">
-				
 			</section>
 
-		
+			<section id="recipes" class="container">	
+				<div class="page-header">
+					<h2 class="text-center">My Recipes</h2>
+				</div>
+				<img src="styles/images/1.jpg" class="img-thumbnail">
+				<img src="styles/images/2.jpg" class="img-thumbnail">
+				<img src="styles/images/3.jpg" class="img-thumbnail">
+				<img src="styles/images/4.jpg" class="img-thumbnail">
+				<img src="styles/images/5.jpg" class="img-thumbnail">
+				<img src="styles/images/6.jpg" class="img-thumbnail">
+			</section>
+
+			<section id="about" class="container">
+				<div class="page-header">
+					<h2 class="text-center">About Me</h2>
+				</div>	
+				<div class="col-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae gravida lacus, malesuada consequat leo. Curabitur iaculis erat vel odio aliquam, in consectetur nisi egestas. Donec sit amet interdum ante. Aliquam gravida dolor eget elementum eleifend. Donec quis dignissim leo, a viverra erat. Duis tincidunt dui lacus, quis porta diam tristique quis. In euismod est ac venenatis rhoncus. Cras quis mi mi. Donec orci nisl, dictum at purus id, elementum vulputate nulla. Maecenas dictum ipsum quis nibh ultricies consectetur. Curabitur vitae nibh sed massa luctus molestie ut at urna.</div><br>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h4>My Favorite Utensils</h4>
+							</div>
+							<div class="panel-body">
+								<img src="styles/images/utensils.jpg" class="img-circle center-block">
+							</div>
+							<div class="panel-footer"></div>
+						</div><!--end of panel div-->	
+					</div><!--end of col-md-6 div-->
+				<div>
+				<h4>Why I love these utensils!</h4>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae gravida lacus, malesuada consequat leo. Curabitur iaculis erat vel odio aliquam, in consectetur nisi egestas. Donec sit amet interdum ante. Aliquam gravida dolor eget elementum eleifend. Donec quis dignissim leo, a viverra erat. Duis tincidunt dui lacus, quis porta diam tristique quis. In euismod est ac venenatis rhoncus. Cras quis mi mi. Donec orci nisl, dictum at purus id, elementum vulputate nulla. Maecenas dictum ipsum quis nibh ultricies consectetur. Curabitur vitae nibh sed massa luctus molestie ut at urna.</div>
+			</section>
 
 
-
-
-
+			<section id="club">
+					<div class="page-header">
+						<h2 class="text-center" id="club-text">Join the Club</h2>
+					</div>
+					<form class="col-md-5 col-md-offset-4" id="button-join">
+						<div class="form-group">
+							<input class="form-control" placeholder="Name" type="text">		
+							<input class="form-control" placeholder="Email" type="email">		
+							<input class="form-control" placeholder="Subject" type="text">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="10">Comments</textarea>
+						</div>
+						<div class="form-group">
+							<input class="btn-success btn-block" placeholder="subject" type="submit">
+						</div>
+					</form>
+			</section>
 		</body>	
 	</html>
